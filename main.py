@@ -1,6 +1,7 @@
 from flask import Flask, url_for
 from flask.templating import render_template
 import requests
+import random
 
 app = Flask(__name__)
 
